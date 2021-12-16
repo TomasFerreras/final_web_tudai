@@ -40,6 +40,7 @@ class apiUserController{
 
     //FALTA item E
 
+    // ESTO DEBERIA IR EN UN CONTROLADOR PARA TARJETAS PERO POR EL TIEMPO LO DEJE ACA
     public function bajaTarjeta($params = []) {
         $tarjetaID = $params[':ID'];
         $tarjeta = $this->model->getTarjeta($tarjetaID);
